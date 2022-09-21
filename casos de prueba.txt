@@ -1,0 +1,14 @@
+|e|
+
+e := Empresa nuevaEmpresa.
+
+e registrarDatosPropietario: 123 nombre: 'jp' apellido: 'dom'.
+e registrarDatosPropietario: 456 nombre: 'negro' apellido: 'fer'.
+e registrarDatosPropietario: 789 nombre: 'walli' apellido: 'gal'.
+
+e incorporarParcelaPropia: 1 hectareas: 10 costoImpuestos: 100.
+
+e incorporarParcelaAlquilada: 2 hectareas: 20 costoAlquiler: 200 dniPropietario: 12. 
+e incorporarParcelaAlquilada: 3 hectareas: 30 costoAlquiler: 300 dniPropietario: 123.
+
+e.
