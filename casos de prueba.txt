@@ -11,4 +11,12 @@ e incorporarParcelaPropia: 1 hectareas: 10 costoImpuestos: 100.
 e incorporarParcelaAlquilada: 2 hectareas: 20 costoAlquiler: 200 dniPropietario: 12. 
 e incorporarParcelaAlquilada: 3 hectareas: 30 costoAlquiler: 300 dniPropietario: 123.
 
+e incorporarParcelaAcuerdo: 4 hectareas: 40 porcentajeAcordado: 400 dniPropietario:123.
+e incorporarParcelaAcuerdo: 4 hectareas: 40 porcentajeAcordado: 400 dniPropietario:125.
+
+e registrarSiembra: 4 cultivo: 'soja' fecha: '1/2/2022' .
+
+e.
+"metodos de prueba"
+e cambiarEstado: 'hola' parcela: 4. 
 e.
