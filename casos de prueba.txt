@@ -7,16 +7,30 @@ e registrarDatosPropietario: 456 nombre: 'negro' apellido: 'fer'.
 e registrarDatosPropietario: 789 nombre: 'walli' apellido: 'gal'.
 
 e incorporarParcelaPropia: 1 hectareas: 10 costoImpuestos: 100.
+e incorporarParcelaAlquilada: 2 hectareas: 20 costoAlquiler: 200 dniPropietario: 123.
+e incorporarParcelaAcuerdo: 3 hectareas: 30 porcentajeAcordado: 25 dniPropietario:123.
 
-e incorporarParcelaAlquilada: 2 hectareas: 20 costoAlquiler: 200 dniPropietario: 12. 
-e incorporarParcelaAlquilada: 3 hectareas: 30 costoAlquiler: 300 dniPropietario: 123.
+e registrarSiembra: 1 cultivo: 'soja' fecha: '1/2/2022' .
+e registrarSiembra: 2 cultivo: 'trigo' fecha: '1/2/2023' .
+e registrarSiembra: 3 cultivo: 'soja' fecha: '1/2/2022' .
 
-e incorporarParcelaAcuerdo: 4 hectareas: 40 porcentajeAcordado: 400 dniPropietario:123.
-e incorporarParcelaAcuerdo: 4 hectareas: 40 porcentajeAcordado: 400 dniPropietario:125.
+e registrarCosecha: 1 rendimientoPorHectarea: 4 precioActualCultivo: 10 fecha: '1/2/2025'.
+e registrarCosecha: 2 rendimientoPorHectarea: 5 precioActualCultivo: 6 fecha: '1/2/2025'.
+e registrarCosecha: 3 rendimientoPorHectarea: 6 precioActualCultivo: 7 fecha: '1/2/2025'.
 
-e registrarSiembra: 4 cultivo: 'soja' fecha: '1/2/2022' .
+e registrarSiembra: 1 cultivo: 'choclo' fecha: '1/2/2022' .
+e registrarSiembra: 2 cultivo: 'tomate' fecha: '1/2/2023' .
+e registrarSiembra: 3 cultivo: 'papa' fecha: '1/2/2022' .
 
-e.
-"metodos de prueba"
-e cambiarEstado: 'hola' parcela: 4. 
+e registrarCosecha: 1 rendimientoPorHectarea: 5 precioActualCultivo: 7 fecha: '1/2/2025'.
+e registrarCosecha: 2 rendimientoPorHectarea: 6 precioActualCultivo: 8 fecha: '1/2/2025'.
+e registrarCosecha: 3 rendimientoPorHectarea: 7 precioActualCultivo: 9 fecha: '1/2/2025'.
+
+e calcularGananciaUltimaCosecha: 2 . 
+e calcularGananciaTotal: 2.
+
+e calcularGananciaUltimaCosecha: 3.
+e calcularGananciaTotal: 3.
+
+
 e.
